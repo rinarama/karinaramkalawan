@@ -810,21 +810,24 @@ body {
 /**
  * Index page styles
  */
-.index-container {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 20px;
-  margin-bottom: 40px;
-}
 
 .index-title {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 40px;
   text-align: center;
   color: white;
   background-image: url("images/blossoms.jpg"); }
 
 .index-projects {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  margin-bottom: 40px;
  }
 
 .index-resume {
+  padding: 20px;
+  margin-bottom: 40px;
   border-bottom: none; }
 
 /**
