@@ -810,14 +810,22 @@ body {
 /**
  * Index page styles
  */
-
-.index-section {
+.index-container {
   border-bottom: 1px solid #eee;
   padding-bottom: 20px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+}
 
-  .index-section:last-child {
-    border-bottom: none; }
+.index-title {
+  text-align: center;
+  color: white;
+  background-image: url("images/blossoms.jpg"); }
+
+.index-projects {
+ }
+
+.index-resume {
+  border-bottom: none; }
 
 /**
  * Post page styles for post content and post layout
