@@ -1,3 +1,4 @@
 # Rina Ramkalawan
 
-A profile webpage built using Jekyll, HTML, skeleton.CSS and Javascript/jQuery.
+Portfolio page built using Jekyll, HTML, skeleton.CSS and Javascript/jQuery.
+In progress
