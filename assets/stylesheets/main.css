@@ -813,7 +813,7 @@ body {
 
 .index-title {
   border-bottom: 1px solid #eee;
-  padding: 20%;
+  padding: 25%;
   margin-bottom: 40px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -824,10 +824,6 @@ body {
   padding: 20px;
   margin-bottom: 40px;
  }
-
-.project-image {
-  
-}
 
 .index-resume {
   padding: 20px;
