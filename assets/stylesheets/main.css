@@ -813,9 +813,10 @@ body {
 
 .index-title {
   border-bottom: 1px solid #eee;
-  padding: 20px;
+  padding: 20%;
   margin-bottom: 40px;
-  text-align: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-image: url("title_karina.jpg"); }
 
 .index-projects {
@@ -823,6 +824,10 @@ body {
   padding: 20px;
   margin-bottom: 40px;
  }
+
+.project-image {
+  
+}
 
 .index-resume {
   padding: 20px;
