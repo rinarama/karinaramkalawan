@@ -1,25 +1,26 @@
 <head>
-  <!-- Meta tags for the page -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+
   <title>{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{% if page.tag %}{{ site.data.tags[page.tag].name }}{% else %}{{ page.title }}{% endif %} &middot; {{ site.title }}{% endif %}</title>
 
-  <!-- Raleway font -->
+  <!-- Bootstrap -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+  <!-- Raleway font for the skeleton -->
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
   <!-- FontAwesome files -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/production/stylesheets/font-awesome.min.css">
 
   <!-- Site's compiled CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/production/stylesheets/main.min.css">
 
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-          crossorigin="anonymous"></script>
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
 
-  <!-- Site's JavaScript files, from assets/javascript folder -->
-  <script type="text/javascript" src="{{ site.baseurl }}/assets/javascript/main.js"></script>
+  <!-- Favicon -->
+  <!-- <link rel="shortcut icon" href="{{ site.url }}/assets/production/favicon.ico"> -->
 
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.baseurl }}atom.xml">
 </head>
